@@ -5,6 +5,8 @@ if frist == second and frist == third:
     print("3")
 elif second == frist and second == third:
     print("3")
+elif third == frist and third == second:
+    print("3")
 elif frist == second or second == third or third == frist:
     print("2")
 else: print("0")
